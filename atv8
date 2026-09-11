@@ -1,0 +1,13 @@
+1- quando você digita oendereço de um site e clica no enter, como também quando você entra no site, o GET vai procurar ele
+2- quando você se cadastra em algum site ou quando você curte ou comenta el agum vídeo ou foto
+3- quando o servidor nao encontra algo no código que daí eu não vou saber
+4- o código 201 significa que o código deu certo e uma coisa foi criada no servidor
+5- # O navegador pede a lista de avisos
+GET /avisos HTTP/1.1
+Host: localhost:3000
+
+# O servidor responde com os avisos
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+["Reunião de responsáveis", "Prova de Matemática"]
